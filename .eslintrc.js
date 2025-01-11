@@ -21,17 +21,7 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
-    'prettier/prettier': [
-      'error',
-      {
-        endOfLine: 'auto',
-        semi: true,
-        trailingComma: 'all',
-        singleQuote: true,
-        printWidth: 200,
-        tabWidth: 2,
-      },
-    ],
-    'linebreak-style': ['error', 'unix']
+    'prettier/prettier': ['error',{endOfLine: 'auto',}],
+
   },
 };
