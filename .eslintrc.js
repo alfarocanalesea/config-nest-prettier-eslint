@@ -7,6 +7,7 @@ module.exports = {
   },
   plugins: ['@typescript-eslint/eslint-plugin','prettier'],
   extends: [
+    'nestjs',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
   ],
@@ -22,6 +23,5 @@ module.exports = {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     'prettier/prettier': ['error',{endOfLine: 'auto',}],
-
   },
 };
