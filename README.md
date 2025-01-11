@@ -37,12 +37,12 @@ To ensure consistent code formatting across your project, follow these steps to 
 
 1. **ESLint Configuration**: Add the following rule to the ESLint configuration file (`.eslintrc.js` or equivalent) to enforce automatic line endings:
 
-   ```json
+   ```bash
    'prettier/prettier': ['error', { 'endOfLine': 'auto' }]
 
 1. **Pretier Configuration**: Add the following config in to the .prettierrc file (`.eslintrc.js` or equivalent) :
 
-   ```json
+   ```bash
    {
    'singleQuote':true,
    'trailingComa':"all",
