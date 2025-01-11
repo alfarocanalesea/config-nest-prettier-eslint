@@ -37,6 +37,11 @@ To ensure consistent code formatting across your project, follow these steps to 
 
 1. **ESLint Configuration**: Add the following rule to the ESLint configuration file (`.eslintrc.js` or equivalent) to enforce automatic line endings:
 
+   Add in extens
+   ```bash
+   'nestjs'
+
+   Add in rules:
    ```bash
    'prettier/prettier': ['error', { 'endOfLine': 'auto' }]
 
